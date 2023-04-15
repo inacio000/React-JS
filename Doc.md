@@ -8,3 +8,15 @@
 - `Componente`
 - `Propriedade = props`: Troca de informações entre repositórios
 - `Estado`: 
+
+## react refresh webpack
+> Plugin para maner o estado dos componentes
+
+## States
+> São `Hooks/Ganchos`
+
+- Atribuição via desestruturação
+```javascript
+    const [counter, setCounter] = useState(0);
+```
+- `useEffect`: Para disparar uma funcção quando algo acontecer no app (mudança de var etc).
