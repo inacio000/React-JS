@@ -2,6 +2,7 @@ import Modal from 'react-modal'
 
 export function NewTransactionModal() {
     return (
+        <h1>Modal</h1>
     //     <Modal 
     //       isOpen={isNewTransactionModalOpen}
     //       onRequestClose={handleCloseNewTransactionModal}
