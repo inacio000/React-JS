@@ -1,13 +1,35 @@
 import Modal from 'react-modal'
+import { Container } from './style';
 
-export function NewTransactionModal() {
+interface NewTransactionModalProps {
+    isOpen: boolean;
+    onRequestClose: () => void;  
+}
+
+export function NewTransactionModal({isOpen, onRequestClose}: NewTransactionModalProps) {
     return (
-        <h1>Modal</h1>
-    //     <Modal 
-    //       isOpen={isNewTransactionModalOpen}
-    //       onRequestClose={handleCloseNewTransactionModal}
-    //   >
-    //       <h2>Register transaction</h2>
-    //   </Modal>
+        <Modal 
+            isOpen={isOpen}
+            onRequestClose={onRequestClose}
+            overlayClassName="react-modal-overlay"
+            className="react-modal-content"
+        >
+          <Container>
+              <h2>Register transaction</h2>
+              <input
+                placeholder='Title'
+              />
+              <input
+                type='number'
+                placeholder='Value'
+              />
+              <input
+                placeholder='Category'
+              />
+              <button type="submit">
+                Register
+              </button>
+          </Container>
+      </Modal>
     )
 }
