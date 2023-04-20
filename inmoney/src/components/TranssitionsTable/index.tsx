@@ -5,7 +5,7 @@ import { api } from "../../services/api";
 export function TranssitionsTable() {
 
     useEffect(() => {
-        api.get('transitions')
+        api.get('transactions')
             .then(response => console.log(response.data))
             .catch(err => console.error(err));
     }, [])
