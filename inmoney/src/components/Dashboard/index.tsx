@@ -1,5 +1,5 @@
 import { Summary } from "../Summary";
-import { TranssitionsTable } from "../TranssitionsTable/inex";
+import { TranssitionsTable } from "../TranssitionsTable";
 import { Container } from "./styles";
 
 export function Dashboard() {
