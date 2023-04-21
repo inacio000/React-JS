@@ -88,3 +88,18 @@
 
 ## Repasse de funções
 > Usamos no componente modal
+
+## polish()
+> Uma forma de escrever estilos, paleta de cores em Javascript.
+
+## seeds()
+
+## Intl()
+> Biblioteca para fazer formatação de dados.
+
+```jsx
+    {new Intl.NumberFormat('pt-BR', {
+        style: 'currency',
+        currency: 'BRL'
+    }).format(transaction.amount)}
+```
