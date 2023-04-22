@@ -113,3 +113,22 @@
 
 ## ReactNode
 > Tipagem para a variável aceitar qualquer tipo de conteúdo válido para o React.
+
+## Herança com `TypeScript`
+
+```typescript
+interface TransactionInput {
+    title: string;
+    amount: number;
+    type: string;
+    category: string;
+}
+
+// OR
+
+type TransactionInput = Omit<Transaction, 'id' | 'createdAt'>;
+
+// OR
+
+type TransactionInput = Pick<Transaction, 'title' | 'amount' | 'type' | 'category'>;
+```
