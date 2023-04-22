@@ -24,11 +24,16 @@ export const Container = styled.div`
             font-size: 2rem;
             font-weight: 500;
             color: var(--title);
+
+            &.withdraw {
+                color: var(--red-color);
+            }
         }
 
-        &.hightlite-bg {
+        &.hightlight-bg {
             background: var(--green-color);
             color: var(--main-shape);
         }
+
     }
 `; 
