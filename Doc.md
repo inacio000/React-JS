@@ -103,3 +103,10 @@
         currency: 'BRL'
     }).format(transaction.amount)}
 ```
+
+## Contexto
+> Partilha de informação/estado complexos entre vários componentes da App.
+> Forma de acessar uma mesma informação de vários componentes, independentemente do nível hierárquico que eles estejam.
+
+## Prop Drilling
+> Passar uma propriedade vários sub-níveis para baixo.
