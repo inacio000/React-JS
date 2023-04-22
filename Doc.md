@@ -132,3 +132,5 @@ type TransactionInput = Omit<Transaction, 'id' | 'createdAt'>;
 
 type TransactionInput = Pick<Transaction, 'title' | 'amount' | 'type' | 'category'>;
 ```
+
+- Toda função assíncrona por padrão retorna uma `promise`
