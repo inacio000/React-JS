@@ -110,3 +110,6 @@
 
 ## Prop Drilling
 > Passar uma propriedade vários sub-níveis para baixo.
+
+## ReactNode
+> Tipagem para a variável aceitar qualquer tipo de conteúdo válido para o React.
