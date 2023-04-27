@@ -134,3 +134,7 @@ type TransactionInput = Pick<Transaction, 'title' | 'amount' | 'type' | 'categor
 ```
 
 - Toda função assíncrona por padrão retorna uma `promise`
+
+## Challenge solve
+
+- Levantamento de estado (`levantando estado`)
