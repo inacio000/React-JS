@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import { Model, createServer } from "miragejs";
 import { App } from './App';
 
-createServer ({
+createServer({
   models: {
     transaction: Model,
   },

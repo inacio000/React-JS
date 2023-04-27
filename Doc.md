@@ -106,6 +106,7 @@
 
 ## Contexto
 > Partilha de informação/estado complexos entre vários componentes da App.
+> Compartilhamento de estado entre varios componentes da App, independentemente de onde o componente esteja.
 > Forma de acessar uma mesma informação de vários componentes, independentemente do nível hierárquico que eles estejam.
 
 ## Prop Drilling

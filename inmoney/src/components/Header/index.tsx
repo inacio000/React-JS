@@ -5,13 +5,13 @@ interface HeaderProps {
     onOpenNewTransactionModal: () => void;
 }
 
-export function Header({onOpenNewTransactionModal}: HeaderProps) {
+export function Header({ onOpenNewTransactionModal }: HeaderProps) {
 
     return (
         <Container>
             <Content>
                 <img src={logoImg} alt="inmoney logo" />
-                <button 
+                <button
                     type="button"
                     onClick={onOpenNewTransactionModal}
                 >
