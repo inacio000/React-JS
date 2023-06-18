@@ -18,3 +18,35 @@
 #
 # SPA (Single Page Application) - `ReactJS`
 # SSR (Server-Side Rendering) - `NextJS`
+# SSG (Static Site Generation)
+
+# SASS
+- `filename.scss`
+
+    ```scss
+        .title {
+            color: red;
+        }
+    ```
+- `filename.sass`
+    ```css
+        .title 
+            color: red;
+    ```
+
+## `_app_.tsx`
+- Componente que fica por volta de todas as páginas
+
+## `_document.tsx`
+
+## Layoutshift
+
+## Three different ways to call an api
+- Client-side: 
+    - Ex: `Comentários de um post`
+- Server-side: Dados dinâmico do usuário (quando é preciso indexação)
+- Static Site Generation: Compartilhar o mesmo HTML com todos os usuários
+    - Ex: `Conteudo de um blog`
+
+## File System Rooting
+- Arquivos se tornarem páginas
