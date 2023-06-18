@@ -50,3 +50,17 @@
 
 ## File System Rooting
 - Arquivos se tornarem páginas
+
+## As três principais funcionalidades do Next
+- Rodam no momento em que os usuários não têm accessos
+- Não são executadas no `Browser`
+    - ...Static
+    - Server Side Rendering
+    - Api routes: Executadas utilizando o conceito do `Serverless` (sem servidor/backend)
+
+# Estratégias Autenticação
+- JWT (Storage): Com data de expiração
+- Next Auth: Para sistema de autenticação simples ouloginsocial (com terceiros) ou quando nao queremos armazenar credenciais de acesso de usuários no backend. Fazendo a autenticação sem depender de um backend.
+### Providers de autenticação externo (`Auth as a service`)
+- Cognito (WS)
+- Auth0
