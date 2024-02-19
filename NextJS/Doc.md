@@ -16,9 +16,9 @@
     - Wordpress
     - Stripper 
 #
-# SPA (Single Page Application) - `ReactJS`
-# SSR (Server-Side Rendering) - `NextJS`
-# SSG (Static Site Generation)
+# SPA (Single Page Application) - **`ReactJS`**
+# SSR (Server-Side Rendering) - **`NextJS`**
+# SSG (Static Site Generation) - **`NextJS`**
 
 # SASS
 - `filename.scss`
@@ -60,7 +60,7 @@
 
 # Estratégias Autenticação
 - JWT (Storage): Com data de expiração
-- Next Auth: Para sistema de autenticação simples ouloginsocial (com terceiros) ou quando nao queremos armazenar credenciais de acesso de usuários no backend. Fazendo a autenticação sem depender de um backend.
+- Next Auth: Para sistema de autenticação simples ou login social (com terceiros) ou quando não queremos armazenar credenciais de acesso de usuários no backend. Fazendo a autenticação sem depender de um backend.
 ### Providers de autenticação externo (`Auth as a service`)
 - Cognito (WS)
 - Auth0
